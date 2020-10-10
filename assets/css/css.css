@@ -18,4 +18,5 @@ main {
   nav {
     flex-direction: column;
     flex-basis: auto;
-  }
+      }
+    }
