@@ -42,3 +42,16 @@ main {
   width: 100%;
   min-width: 400px;
 }
+
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+  header {
+    background: #772014;
+  }
+  nav,
+  footer {
+    background-color: #bb8588;
+  }
