@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/assets/css/css.css">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/css.css">
+    <title>Conflict Resolution</title>
 </head>
 <body>
     <header>
@@ -26,34 +26,33 @@
 
         <section class="card">
             <header>Flexbox Column</header>
-            <p></p>
-        </section>  
-        <div>Flexbox Column
-            <pre>
-                SAMPLE CSS RULE
-            </pre> 
-        </div>
-            
-        <div>CSS Grid Layout
-            <pre>
-                SAMPLE CSS RULE
-            </pre> 
-        </div>
-        <div>Linear Gradients
-            <pre>
-                SAMPLE CSS RULE
-            </pre> 
-        </div>
-        <div>Box Transition Glow
-            <pre>
-                SAMPLE CSS RULE
-            </pre> 
-        </div>
-        <div>Overlay Card with Title
-            <pre>
-                SAMPLE CSS RULE
-            </pre> 
-        </div>
+            <h2>Use this to create a Flexbox column layout</h2>
+            <p>.column {
+                <br>
+                display: flex;
+                <br>
+                flex-direction: column
+                <br>
+                }
+            </p>
+        </section> 
+        <section class="card">
+            <header>CSS Grid Layout</header>
+            <h2>Build a 12-column layout using CSS Grid</h2>
+            <p>.grid {
+                <br>
+                display: grid;
+                <br>
+                width: 100%;
+                <br>
+                grid-template-columns:
+                <br>
+                repeat (12, 1fr);
+                <br>
+                }
+            </p>
+        </section> 
+
     </main>
     <footer>Made with love and CSS</footer>
     
